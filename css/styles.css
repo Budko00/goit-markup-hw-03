@@ -155,6 +155,7 @@ h3 {
 .main_section {
     background-color: #2e2f42;
     /* Фон секції */
+    padding: 188px 0;
 }
 
 /* Стилі для заголовка */
@@ -169,6 +170,7 @@ h3 {
     /* Відстань між літерами */
     color: #ffffff;
     /* Колір тексту */
+    max-width: 496px;
 }
 
 /* Стилі для кнопки */
@@ -189,6 +191,11 @@ h3 {
     /* Колір тексту в кнопці */
     cursor: pointer;
     /* Стиль курсору */
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 /* Зміни кольору кнопки при наведені та фокусі */
