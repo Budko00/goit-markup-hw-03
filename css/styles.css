@@ -273,3 +273,38 @@ h3 {
     color: #434455;
     /* Колір тексту */
 }
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+/* контейнер*/
+.container {
+    width: 1158px;
+ max-width: 100%;
+padding-left: 0;
+padding-right: 0;
+margin-left: 0;
+margin-right: 0;
+} 
+.header-conteiner {
+display: flex;
+align-items: center;
+}
+header {
+    box-sizing: border-box; 
+    border-bottom: 1px solid #e7e9fc;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+.page-navigation{
+    margin-left: 156px;
+    display: flex;
+    align-items: center;
+}
