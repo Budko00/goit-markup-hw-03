@@ -2,6 +2,8 @@
 .list {
     list-style-type: none;
     /* Вимкнення стандартних маркерів списку */
+    display: flex;
+    gap: 24px;
 }
 
 /* Стилі для посилань */
@@ -365,4 +367,18 @@ header {
 }
 .menu-item:last-child {
     margin-right: 0;
+   }
+   .our-benefits {
+padding: 120px 0;
+   }
+   .visually-hidden {
+       position: absolute;
+       width: 1px;
+       height: 1px;
+       padding: 0;
+       margin: -1px;
+       overflow: hidden;
+       clip: rect(0, 0, 0, 0);
+       border: 0;
+       clip-path: inset(100%);
    }
