@@ -292,10 +292,7 @@ padding-right: 0;
 margin-left: 0;
 margin-right: 0;
 } 
-.header-conteiner {
-display: flex;
-align-items: center;
-}
+
 header {
     box-sizing: border-box; 
     border-bottom: 1px solid #e7e9fc;
@@ -307,4 +304,39 @@ header {
     margin-left: 156px;
     display: flex;
     align-items: center;
+}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logotype {
+    margin-right: 76px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.contact_info ul {
+    display: flex;
+    gap: 40px;
 }
