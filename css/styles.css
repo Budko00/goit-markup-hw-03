@@ -8,7 +8,9 @@
 .benefits-item:first-child {
     width: calc((100% - 72px) / 4);
 }
-
+.benefits-item{
+flex: 1;
+}
 /* Стилі для посилань */
 .link {
     text-decoration: none;
