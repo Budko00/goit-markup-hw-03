@@ -1,13 +1,14 @@
 /* Скидання стилю для списків */
-.list {
+
+.benefits-list{
     list-style-type: none;
-    /* Вимкнення стандартних маркерів списку */
     display: flex;
-    gap: 24px;
+        gap: 24px;
 }
-.list-first-сhild{
+.benefits-item:first-child {
     width: calc((100% - 72px) / 4);
 }
+
 /* Стилі для посилань */
 .link {
     text-decoration: none;
@@ -47,7 +48,7 @@ body {
     /* Колір тексту */
 }
 /* Стилі для заголовків у секції "Our benefits" */
-.benefit-title {
+.benefits-title {
     font-weight: 500;
     /* Жирність шрифту */
     font-size: 20px;
@@ -62,7 +63,7 @@ body {
 }
 
 /* Стилі для параграфів у секції "Our benefits" */
-.benefit-text {
+.benefits-description {
     font-size: 16px;
     /* Розмір шрифту */
     line-height: 1.5;
@@ -233,13 +234,16 @@ h3 {
     /* Відстань між літерами */
 }
 /* Секція */
-.team {
+.fourth-section {
     background-color: #F4F4FD;
     /* Фон секції */
 }
+.team-list{
+
+}
 
 /* Заголовок секції */
-.our-team-title {
+.section-title {
     font-size: 36px;
     /* Розмір шрифту */
     line-height: 1.11;
@@ -272,8 +276,12 @@ h3 {
     /* Відстань між літерами */
     color: #2e2f42;
     /* Колір тексту */
+    text-align: center;
+        margin-bottom: 8px;
 }
-
+.team-info {
+    padding: 32px 0;
+}
 /* Параграф у пункті списку */
 .team-item-text {
     font-size: 16px;
@@ -284,6 +292,7 @@ h3 {
     /* Відстань між літерами */
     color: #434455;
     /* Колір тексту */
+    text-align: center;
 }
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
@@ -371,7 +380,7 @@ header {
 .menu-item:last-child {
     margin-right: 0;
    }
-   .our-benefits {
+   .second-section {
 padding: 120px 0;
    }
    .visually-hidden{
