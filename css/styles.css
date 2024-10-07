@@ -237,9 +237,11 @@ h3 {
 .fourth-section {
     background-color: #F4F4FD;
     /* Фон секції */
+    padding: 120px 0;
 }
 .team-list{
-
+display: flex;
+    gap: 24px;
 }
 
 /* Заголовок секції */
@@ -256,6 +258,7 @@ h3 {
     /* Текст із великої літери */
     color: #2e2f42;
     /* Колір тексту */
+    margin-bottom: 72px;
 }
 
 /* Пункт списку */
@@ -394,4 +397,7 @@ white-space: nowrap;
 clip-path: inset(100%);
 clip: rect(0, 0, 0, 0);
 overflow: hidden;
+   }
+   .team-item:first-child {
+       border-radius: 0px 0px 4px 4px;
    }
