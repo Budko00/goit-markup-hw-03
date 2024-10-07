@@ -21,6 +21,8 @@ flex: 1;
     /* Відстань між літерами */
     color: #434455;
     /* Колір тексту */
+    display: inline-block;
+        margin-bottom: 16px;
 }
 
 .button {
@@ -91,6 +93,7 @@ body {
     /* Усі літери великі */
     color: #4d5ae5;
     /* Колір логотипу */
+    
 }
 
 /* Стилі для логотипу (ікони) */
@@ -215,6 +218,7 @@ h3 {
 .footer_section {
     background-color: #2e2f42;
     /* Колір фону футера */
+    padding: 100px 0
 }
 
 .span-logo {
