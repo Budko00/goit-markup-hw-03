@@ -1,15 +1,33 @@
 /* Скидання стилю для списків */
 
-.benefits-list{
+.benefits-list {
     list-style-type: none;
+    /* Вимкнення маркерів */
     display: flex;
-        gap: 24px;
+    /* Вирівнювання елементів списку */
+    flex-wrap: wrap;
+    /* Дозволяє елементам переноситися на новий рядок */
+    column-gap: 24px;
+    /* Горизонтальні відступи між пунктами списку */
+    row-gap: 48px;
+    /* Вертикальні відступи між пунктами списку */
+    justify-content: center;
+    /* Центрування пунктів списку */
 }
 .benefits-item:first-child {
     width: calc((100% - 72px) / 4);
 }
 .benefits-item{
 flex: 1;
+width: calc((100% - 48px) / 3);
+    /* Визначення ширини */
+    background-color: #FFFFFF;
+    /* Фон пункту списку */
+    padding: 32px 16px;
+    /* Відступи всередині пункту */
+    border: 1px solid #e7e9fc;
+    /* Обводка */
+    border-top: none;
 }
 /* Стилі для посилань */
 .link {
