@@ -7,7 +7,7 @@
     /* Вирівнювання елементів списку */
     flex-wrap: wrap;
     /* Дозволяє елементам переноситися на новий рядок */
-    column-gap: 24px;
+margin-right: 24px;
     /* Горизонтальні відступи між пунктами списку */
     row-gap: 48px;
     /* Вертикальні відступи між пунктами списку */
@@ -16,6 +16,7 @@
 }
 .benefits-item:first-child {
     width: calc((100% - 72px) / 4);
+    margin-right: 0;
 }
 .benefits-item{
 flex: 1;
@@ -290,6 +291,9 @@ display: flex;
 .team-item {
     background-color: #FFFFFF;
     /* Фон пункту списку */
+    width: calc((100% - 72px) / 4);
+ /* Ширина для всіх елементів */
+     margin-right: 24px;
 }
 
 /* Заголовок пункту списку */
@@ -429,3 +433,12 @@ overflow: hidden;
    .team-item:first-child {
        border-radius: 0px 0px 4px 4px;
    }
+.team-item:last-child {
+    margin-right: 0;
+}
+.team-item:first-child {
+    width: calc((100% - 72px) / 4);
+    /* Ширина для першого елемента */
+    margin-right: 24px;
+    /* Відступ */
+}
