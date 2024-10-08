@@ -122,7 +122,6 @@ header {
 }
 /* */
 .menu {
-    display: flex;
     gap: 40px;
 }
 /* Скидання стилю для списків */
@@ -137,9 +136,10 @@ header {
     list-style-type: none;
     margin-right: 40px;
     /* Відступ між пунктами меню */
+
 }
 /* */
-.menu-item:last-child {
+.menu-item:last-child{
     margin-right: 0;
 }
 /* посилання */
@@ -315,6 +315,7 @@ header {
     color: #2e2f42;
     /* Колір тексту */
     margin-bottom: 72px;
+    text-align: center;
 }
 /*  третя секція список*/
 .team-list {
@@ -324,6 +325,7 @@ header {
 .team-item {
     background-color: #FFFFFF;
     width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
 }
 /*картинки*/
 img {
@@ -362,12 +364,14 @@ padding: 32px 0;
     /* Відстань між літерами */
     color: #434455;
     /* Колір тексту */
+    text-align: center;
 }
 /*  четверта секція список*/
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    width: calc((100% - 48px) / 3);
 }
 /* контейнер четвертої секції*/
 .portfolio-box {
