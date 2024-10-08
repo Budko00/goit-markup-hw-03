@@ -122,6 +122,7 @@ header {
 }
 /* */
 .menu {
+    display: flex;
     gap: 40px;
 }
 /* Скидання стилю для списків */
@@ -134,7 +135,6 @@ header {
 /* */
 .menu-item {
     list-style-type: none;
-    margin-right: 40px;
     /* Відступ між пунктами меню */
 
 }
@@ -315,7 +315,6 @@ header {
     color: #2e2f42;
     /* Колір тексту */
     margin-bottom: 72px;
-    text-align: center;
 }
 /*  третя секція список*/
 .team-list {
@@ -352,6 +351,7 @@ padding: 32px 0;
     color: #2e2f42;
     /* Колір тексту */
     margin-bottom: 8px;
+    text-align: center;
 }
 /* Параграф у пункті списку
 3 і 4 секціїї */
@@ -384,7 +384,9 @@ padding: 32px 0;
 flex-wrap: wrap;
 gap: 48px 24px;
 border-radius: 0px 0px 4px 4px;
-width: calc((100%-48px)/3);
+}
+.portfolio-item:first-child{
+    width: calc((100%-48px)/3);
 }
 /*футер*/
 .footer_section {
