@@ -418,9 +418,3 @@ overflow: hidden;
 .team-item:last-child {
     margin-right: 0;
 }
-.team-item:first-child {
-    width: calc((100% - 72px) / 4);
-    /* Ширина для першого елемента */
-    margin-right: 24px;
-    /* Відступ */
-}
