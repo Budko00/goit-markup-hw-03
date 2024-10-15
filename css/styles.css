@@ -305,6 +305,10 @@ header {
 .fourth-section {
     padding: 120px 0;
 }
+/*третя секція колір фону*/
+.third{
+    background-color: #F4F4FD;
+}
 /* Заголовок 3 і 4 секції */
 .section-title {
     font-size: 36px;
@@ -370,7 +374,7 @@ padding: 32px 0;
     color: #434455;
     /* Колір тексту */
     text-align: center;
-}
+} 
 /*  четверта секція список*/
 .portfolio-list {
     display: flex;
@@ -382,6 +386,29 @@ padding: 32px 0;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top:none ;
+}
+.fourth-team-item-title{
+font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 20px;
+    /* Розмір шрифту */
+    line-height: 1.2;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+    margin-bottom: 8px;
+}
+.fourth-team-item-text{
+font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
 }
 /* лі в 4 секції */ 
 .portfolio-item{ 
@@ -421,7 +448,8 @@ border-radius: 0px 0px 4px 4px;
     /* Колір тексту, використовуючи CSS змінну */
     letter-spacing: 0.02em;
     /* Відстань між літерами */
-    min-width: 264px;
+    min-width: 264px; 
+max-width: 264px;
 }
 /*
 
